@@ -61,12 +61,3 @@ confirmed_macros:
 #  the user with a confirmation dialog.  The default is to include
 #  RESTART and FIRMWARE_RESTART.
 
-
-# Crowsnest update_manager entry
-[update_manager crowsnest]
-type: git_repo
-path: ~/crowsnest
-origin: https://github.com/mainsail-crew/crowsnest.git
-managed_services: crowsnest
-
-[include moonraker-obico-update.cfg]
